@@ -16,5 +16,5 @@ RUN apt-get update && \
   curl -sS https://getcomposer.org/installer -o composer-setup.php && \
   php composer-setup.php --install-dir=/usr/local/bin --filename=composer && \
   composer && \
-  rm composer-setup.php
+  rm composer-setup.php && \
   apt-get -y install git
