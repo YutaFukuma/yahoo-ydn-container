@@ -17,3 +17,4 @@ RUN apt-get update && \
   php composer-setup.php --install-dir=/usr/local/bin --filename=composer && \
   composer && \
   rm composer-setup.php
+  apt-get -y install git
